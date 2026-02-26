@@ -15,7 +15,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@PsychoFounder")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@Moon_m_5")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "HinduMusicRobot")
 # --------------------------------------------------------
@@ -41,7 +41,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 CLONE_LOGGER = LOGGER_ID
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7847021843))
+OWNER_ID = int(getenv("OWNER_ID", 7789325573))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -54,10 +54,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = getenv("SOURCE", "https://github.com/HKMUSIC/cloneclient")
+SOURCE = getenv("SOURCE", "https://github.com/meowtasticbot/XD")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/HKMUSIC/cloneclient",
+    "https://github.com/meowtasticbot/XD",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -73,9 +73,9 @@ API_KEY = getenv("API_KEY", None)
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+zMTfrXoBxxgxZjc1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Meowstric")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Chatparaside")
-CHAT = getenv("CHAT", "https://t.me/Chatparaside")
+CHAT = getenv("CHAT", "https://t.me/btw_Mo0n")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
