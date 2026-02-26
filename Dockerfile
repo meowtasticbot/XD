@@ -1,9 +1,8 @@
-# Updated base image (Bookworm = latest stable Debian)
-FROM nikolaik/python-nodejs:python3.10-nodejs19-bookworm
+FROM python:3.10-slim-bookworm
 
-# Install ffmpeg safely
+# Install ffmpeg
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends ffmpeg && \
+    apt-get install -y ffmpeg git curl && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -13,11 +12,11 @@ WORKDIR /app
 # Copy files
 COPY . .
 
-# Upgrade pip first (important)
-RUN pip3 install --no-cache-dir --upgrade pip
+# Upgrade pip
+RUN pip install --upgrade pip
 
 # Install requirements
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Start bot
 CMD ["bash", "start"]
